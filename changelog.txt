@@ -1,0 +1,51 @@
+Map construction
+Adjustments for the game proper... undocumented
+
+IDEA: make structures a module: for example, stucture.house(row,col) would return the list of house parts to add to the collideables.
+
+TODO: make gates display the cost when the mouse collides with them.
+
+TODO: make ranged attackers less stupid about missing
+
+IDEA: "if cliprect is your sprite size, wiggle around" - in case things get weird with the conga line solution keep this idea in mind
+
+IDEA: retaliation improvements - handle ranged attackers, among other things
+
+IDEA: change healing word to use targetObject so it can switch targets on the fly
+
+TODO: Lag is beginning to become a serious problem...
+IDEA: create specific 'blocks' of invisible drawables for use as big barriers
+
+TODO: adjust water hitbox
+TODO: handle waterSplash drawing better
+
+TODO: split level file into collideables, creatures, weapons, etc. ~ multi-layer level designs
+
+TODO: maybe adjust draw so that weapons are not covered by corpses?
+TODO: animate blue selection arrows
+
+TODO: improve appearance of ranged weapons, add a ranged weapon attack animation and fix ranged weapon offsets and distance-based animations
+
+IDEA: blink spell doesn't go directly to cursor, but spawns an indicator at you and moves it towards the cursor: this way it can collide with walls and stop
+
+TODO: icons to indicate healing, buffing, debuffing, persistent effects
+
+IDEA: add a creature.command(<command>) function - only retaliate when not commanded? NO: make it a function of forced commands instead! maybe make command exist for forcing
+
+TODO: add custom cursors for casting, commanding, and force commanding
+
+TODO: make the hats (and other multisprites) less janky - make it stick to your head better when you turn fast and not look ugly when you die
+
+TODO: maybe update the selection box to use pygame.Rect.normalize() to ease up some of the math
+
+IDEA: forced commands vs general commands - general commands will let skeletons path and let undead retaliate, force will force a direct route. also can be used to target specific individual targets rather than general ones - general attack vs force attack one target, general move corpses vs force move one corpse
+
+IDEA: fleeing behavior - 'move()' towards the opposite of the source of fear's position - maybe base it on median position of groups of enemies
+
+TODO: finite state machine for creatures ~ consider defending (attack anyone getting too close but staying in one spot) and hunting (attack and kill anyone you see (look at current main function's implementation of this))
+
+TODO: make your controlled undead step aside for you (sort of already there? you walk through them)
+
+TODO: stopping tolerance when crowded. maybe something like: if there are x undead in a y-sized area around the objective, stop earlier/farther away
+
+TODO: from the last one, possibly add a 'waiting' state where the minion will move in if the desired space becomes unoccupied

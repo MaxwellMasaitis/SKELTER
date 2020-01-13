@@ -1,0 +1,44 @@
+Levels must be rectangles of size at least 25x25
+
+* = nothing
+- = collision placeholder
+~ = non-collision placeholder
+
+p = protag
+m = strawman
+c = human
+g = guard
+s = soldier
+a = acolyte
+b = archer
+u = cultist
+k = king
+
+# = handaxe
+? = shovel
+8 = shortbow
+9 = shortsword
+
+W = Wall
+T = Tree
+L = Cliff left
+U = Cliff wide
+B = Boulder
+F = Fake House
+
+H = House
+Q = Castle
+
+Z = Throne
+
+S = Shrub
+G = Gravestone
+C = Stump
+
+| = Graveyard Gate
+{ = Forest Gate
+} = City Gate
+% = Castle Gate
+@ = Castle Vault
+
+w = water tile

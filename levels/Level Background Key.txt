@@ -1,0 +1,39 @@
+* = nothing
+- = collision placeholder
+w = water placeholder
+
+T = Tree
+S = Shrub
+H = House
+C = Stump
+B = Boulder
+
+L = Cliff left
+W = Cliff wide
+R = Cliff right
+U = Cliff top
+M = Cliff mid
+A = Cliff bottom
+
+u = North water edge
+d = South water edge
+l = West water edge
+r = East water edge
+v = Northwest water edge
+x = Northeast water edge
+y = Southwest water edge
+z = Southeast water edge
+m = Northwest water corner
+n = Northeast water corner
+o = Southwest water corner
+p = Southeast water corner
+
+a = Vertical bridge left
+b = Vertical bridge middle
+c = Vertical bridge right
+
+e = Horizontal bridge top
+f = Horizontal bridge mid
+g = Horizontal bridge bottom
+
+# = path
