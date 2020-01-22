@@ -3,11 +3,9 @@ Code and assets for SKELTER! game
 
 SKELTER! by Max Masaitis
 
-
 STARTING THE GAME:
 
 After unzipping the file, make sure that the images, levels, sounds, and modules folders are still intact. main.py must be in the same folder as all of these other folders. Then, run main.py through the shell, terminal, or another means of running a python file. Backgroundizer is not necessary, but was included for completion's sake.
-
 
 KNOWN BUGS:
 
@@ -22,8 +20,6 @@ Text on gates does not disappear if you stop attacking it.
 Ranged weapons do not animate properly.
 
 Alarm graphic for when players might go over the minion cap does not work.
-
-
 
 CONTROLS:
 
@@ -41,11 +37,7 @@ MOUSE MOVEMENT - Drag to move the camera
 
 H -------------- Change character's hat
 
-
-
 The HUD will be colored red in Command Mode and blue in Magic Mode
-
-
 
 Magic Mode Controls:
 
@@ -54,8 +46,6 @@ SCROLL WHEEL SCROLL - Scroll through spells
 LEFT MOUSE ---------- Click to select a target, click and drag to select an area of targets
 
 RIGHT MOUSE --------- Cast current spell. This action is context-dependent based on the current spell
-
-
 
 Command Mode Controls:
 
